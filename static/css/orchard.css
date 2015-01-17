@@ -1,7 +1,11 @@
+/******************** Body ********************/
+
 body {
     padding: 1em 0;
-    font-family: "Lato-Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: "Lato-Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/******************** Header ********************/
 
 div.header {
     margin-bottom: 0;
@@ -12,6 +16,19 @@ div.header div.title {
     line-height: 3.5rem;
     text-align: center;
 }
+
+@media (min-width: 550px) {
+    div.header div.title {
+        text-align:left;
+    }
+}
+
+hr.header-break {
+    margin: 2rem 0 3rem 0;
+    padding: 0;
+}
+
+/******************** Index ********************/
 
 div.index {
     margin-top: -2em;
@@ -38,20 +55,9 @@ div.index > div.item > div.date {
 }
 
 @media (min-width: 550px) {
-
-    div.header div.title {
-        text-align: left;
-    }
-
     div.index > div.item > div.date {
         text-align: right;
         display: block;
         margin-top: 0rem;
     }
-
-}
-
-hr.header-break {
-    margin: 2rem 0 3rem 0;
-    padding: 0;
 }
