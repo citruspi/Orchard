@@ -61,3 +61,38 @@ div.index > div.item > div.date {
         margin-top: 0rem;
     }
 }
+
+/******************** Post ********************/
+
+div.post h1 {
+    font-size: 4rem;
+}
+
+div.post h2 {
+    font-size: 3.5rem;
+}
+
+div.post h3 {
+    font-size: 3.0rem;
+}
+
+div.post h4 {
+    font-size: 2.5rem;
+}
+
+div.post h5 {
+    font-size 2.0rem;
+}
+
+div.post hr {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+div.post > div.content p {
+    font-size: 2.5rem;
+}
+
+div.post > div.content li {
+    font-size: 2.2rem;
+}
