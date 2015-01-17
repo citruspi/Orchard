@@ -4,15 +4,16 @@
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/skeleton.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/css/orchard.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     </html>
 
     <body>
-        <div class="container">
+        <div class="container header">
 
             <div class="row">
-                <div class="three columns">
-                    <h3>{{ .Site.Title }}</h3>
+                <div class="three columns title">
+                    {{ .Site.Title }}
                 </div>
                 <div class="nine columns">
                     <!-- menu placement -->
@@ -21,16 +22,16 @@
         </div>
 
         <div class="row">
-            <hr class="u-full-width">
+            <hr class="header-break">
         </div>
 
-        <div class="container">
+        <div class="container index">
             {{ range .Data.Pages }}
-            <div class="row">
-                <div class="eight columns">
-                    <h5>{{ .Title }}</h5>
+            <div class="row item">
+                <div class="eight columns title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
                 </div>
-                <div class="four columns">
+                <div class="four columns date">
                     {{ .Date.Format "02 Jan. 2006" }}
                 </div>
            </div>
