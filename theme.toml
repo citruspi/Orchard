@@ -1,6 +1,6 @@
-author = ""
+author = "@citruspi"
 description = ""
-license = "MIT"
+license = "Public Domain"
 name = "Orchard"
-source_repo = ""
+source_repo = "https://github.com/citruspi/Orchard.git"
 tags = ["", ""]
