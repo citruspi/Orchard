@@ -5,6 +5,10 @@ body {
     font-family: "Lato-Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a {
+    color: #FF530D;
+}
+
 /******************** Header ********************/
 
 div.header {
