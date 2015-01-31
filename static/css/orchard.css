@@ -98,3 +98,18 @@ div.post > div.content p {
 div.post > div.content li {
     font-size: 2.2rem;
 }
+
+/* Based on sample code from
+   http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+
+div.post blockquote {
+    background: #f9f9f9;
+    border-left: 8px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+div.post blockquote p {
+    display: inline;
+}
