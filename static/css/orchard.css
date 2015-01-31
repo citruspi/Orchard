@@ -91,6 +91,10 @@ div.post hr {
     margin-bottom: 2.5rem;
 }
 
+div.post a {
+    text-decoration: none;
+}
+
 div.post > div.content p {
     font-size: 2.5rem;
 }
