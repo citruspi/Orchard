@@ -117,3 +117,20 @@ div.post blockquote p {
 div.post ul {
     list-style: disc inside none;
 }
+
+div.post div.highlight {
+    background: #002B36;
+    padding-top: 0.1em;
+    padding-bottom: 0.1rem;
+    padding-left: 1.2em;
+    border-radius: 4px;
+}
+
+div.post pre {
+    border-radius: 4px;
+}
+
+div.post pre > code {
+    background: #002B36;
+    color: #fff;
+}
