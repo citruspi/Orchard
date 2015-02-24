@@ -10,6 +10,10 @@
             {{ .Content }}
         </div>
 
+        <div class="metadata">
+            <h4><i>Published on {{ .Date.Format "02 January 2006" }}.</i></h4>
+        </div>
+ 
     </div>
 
 {{ partial "bottom-single.html" . }}
