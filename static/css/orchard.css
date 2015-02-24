@@ -1,5 +1,12 @@
-/******************** Body ********************/
+/******************** Fonts ********************/
 
+@font-face {
+    font-family: Lato-Light;
+    src: url(/fonts/Lato-Light.ttf);
+    font-weight: 300;
+}
+
+/******************** Body ********************/
 body {
     padding: 1em 0;
     font-family: "Lato-Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
