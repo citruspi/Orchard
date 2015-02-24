@@ -143,6 +143,7 @@ div.post div.highlight {
 
 div.post pre {
     border-radius: 4px;
+    font-size: 1.7rem;
 }
 
 div.post pre > code {
