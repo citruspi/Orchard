@@ -119,6 +119,13 @@ div.post > div.content ol {
     list-style: decimal inside none;
 }
 
+@media (min-width: 550px) {
+    div.post > div.content ol {
+        list-style: decimal outside none;
+    }
+
+}
+
 /* Based on sample code from
    http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 
@@ -139,6 +146,11 @@ div.post > div.content ul {
     list-style: disc inside none;
 }
 
+@media (min-width: 550px) {
+    div.post > div.content ul {
+        list-style: disc outside none;
+    }
+}
 
 div.post div.highlight {
     background: #002B36;
